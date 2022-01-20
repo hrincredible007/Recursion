@@ -11,7 +11,6 @@ public class print_subsequences_of_an_array {
         int[] arr = new int[n];
         for(int i = 0;i<n; i++){
             arr[i] = sc.nextInt();
-
         }
         List<Integer> list = new ArrayList<>();
         subsequences(arr, 0, list);
